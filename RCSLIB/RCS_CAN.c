@@ -148,8 +148,8 @@ void RCS_CAN2_Config(GPIO_TypeDef *_GPIOx, uint32_t _GPIO_PinX_Rx, uint32_t _GPI
 
     RCC_ClocksTypeDef rcc_clocks;                   //开启时钟
     RCC_GetClocksFreq(&rcc_clocks);
-    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOA, ENABLE);
-		RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN1, ENABLE);
+    RCC_AHB1PeriphClockCmd(RCC_AHB1Periph_GPIOB, ENABLE);
+		//RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN1, ENABLE);
     RCC_APB1PeriphClockCmd(RCC_APB1Periph_CAN2, ENABLE);	//CAN2时钟可以不开，但CAN1时钟必须开
     RCC_APB2PeriphClockCmd(RCC_APB2Periph_SYSCFG, ENABLE);
 

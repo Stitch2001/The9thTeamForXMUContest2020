@@ -132,7 +132,7 @@ void start_task(void *p_arg)
 		delay_ms(5);
 }
 
-//chassis底盘控制任务
+//chassis底盘控制任务【及机械臂气缸控制任务】
 void chassis_task(void *p_arg)
 {
 
@@ -158,6 +158,7 @@ void chassis_task(void *p_arg)
 static void MainTask_Init()				//初始化函数
 {
 		Ctrl_BaseMove_Init();		//底盘控制初始化（包括了手柄与底盘电机初始化）
+		Motor_Init2();		//CAN2初始化（用于控制机械臂）
 }
 
 

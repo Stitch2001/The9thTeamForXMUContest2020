@@ -38,10 +38,10 @@
 /* ----------------------- 创建接受包结构体 ------------------------------------- */
 typedef struct
  {
-	uint16_t ch0;			//right Joystick left-right
-	uint16_t ch1;			//right Joystick ahead-back
-	uint16_t ch2;			//left Joystick left-right
-	uint16_t ch3;			//left Joystick ahead-back
+	uint16_t ch0;			//right Joystick left-right右杆左右
+	uint16_t ch1;			//right Joystick ahead-back右杆上下
+	uint16_t ch2;			//left Joystick left-right左杆左右
+	uint16_t ch3;			//left Joystick ahead-back左杆上下
 	uint8_t s1;				//left switch
 	uint8_t s2;				//right switch
  }rc_ctrl;							//遥控
