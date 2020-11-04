@@ -83,3 +83,4 @@
 .\objects\rcs_gpio.o: .\RCSLIB\RCS_Remote.h
 .\objects\rcs_gpio.o: .\RCSLIB\RCS_Oled_IIC.h
 .\objects\rcs_gpio.o: .\USERLIB\LED_LIB.h
+.\objects\rcs_gpio.o: .\USERLIB\MOTOR_CTRL_LIB.h

@@ -127,5 +127,6 @@
 #include "RCS_Oled_IIC.h"
 //USER¿â
 #include "LED_LIB.h"
+#include "MOTOR_CTRL_LIB.h"
 
 #endif  //  _RCS_H_

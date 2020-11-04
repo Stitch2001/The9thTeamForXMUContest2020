@@ -83,3 +83,4 @@
 .\objects\rcs_grobal_gps.o: .\RCSLIB\RCS_Remote.h
 .\objects\rcs_grobal_gps.o: .\RCSLIB\RCS_Oled_IIC.h
 .\objects\rcs_grobal_gps.o: .\USERLIB\LED_LIB.h
+.\objects\rcs_grobal_gps.o: .\USERLIB\MOTOR_CTRL_LIB.h

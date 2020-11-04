@@ -97,6 +97,7 @@
 ".\objects\rcs_remote.o"
 ".\objects\rcs_oled_iic.o"
 ".\objects\led_lib.o"
+".\objects\motor_ctrl_lib.o"
 --strict --scatter ".\Objects\F405project.sct"
 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers

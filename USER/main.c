@@ -33,6 +33,9 @@ CPU_STK LED_TASK_STK[LED_STK_SIZE];
 //任务函数
 void led_task(void *p_arg);*/
 /**********************************************/
+
+float init_angle;//机械臂电机初始角度
+
 static void MainTask_Init(void);
 
 int main()
@@ -77,7 +80,6 @@ void start_task(void *p_arg)
 	CPU_Init();
 	
 	MainTask_Init();	//功能初始化
-	
 	delay_ms(500);//初始化时间
 	
 #if OS_CFG_STAT_TASK_EN > 0u
@@ -139,7 +141,7 @@ void chassis_task(void *p_arg)
 	p_arg = p_arg;
 	while(1) 
 	{
-		Remote_Ctrl();
+		Remote_Ctrl(init_angle);
 		delay_ms(5);
 	}
 }
@@ -158,7 +160,7 @@ void chassis_task(void *p_arg)
 static void MainTask_Init()				//初始化函数
 {
 		Ctrl_BaseMove_Init();		//底盘控制初始化（包括了手柄与底盘电机初始化）
-		Motor_Init2();		//CAN2初始化（用于控制机械臂）
+		init_angle = M3508_Angle_Init(); 		//机械臂电机初始化
 		//RCS_GPIO_Output_Init(GPIOC,GPIO_Pin_4);
 }
 

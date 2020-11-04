@@ -83,3 +83,4 @@
 .\objects\rcs_remote.o: .\RCSLIB\RCS_Remote.h
 .\objects\rcs_remote.o: .\RCSLIB\RCS_Oled_IIC.h
 .\objects\rcs_remote.o: .\USERLIB\LED_LIB.h
+.\objects\rcs_remote.o: .\USERLIB\MOTOR_CTRL_LIB.h

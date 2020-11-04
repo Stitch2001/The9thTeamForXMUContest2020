@@ -1,7 +1,7 @@
 Dependencies for Project 'F405project', Target 'Target 1': (DO NOT MODIFY !)
 F (.\CORE\startup_stm32f40_41xxx.s)(0x582097A0)(--cpu Cortex-M4.fp -g --apcs=interwork -I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"--pd "__UVISION_VERSION SETA 525" --pd "STM32F405xx SETA 1"--list .\listings\startup_stm32f40_41xxx.lst --xref -o .\objects\startup_stm32f40_41xxx.o --depend .\objects\startup_stm32f40_41xxx.d)
-F (.\USER\main.c)(0x5FA2325C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
-I (USER\rcs.h)(0x5F68ADA5)
+F (.\USER\main.c)(0x5FA2DECF)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\main.o --omf_browse .\objects\main.crf --depend .\objects\main.d)
+I (USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -64,7 +64,7 @@ I (.\uCOSIII\uCOS_BSP\bsp.h)(0x5F1E958D)
 I (.\SYSTEM\delay.h)(0x5F1EF64B)
 I (.\SYSTEM\sys.h)(0x5F1E9590)
 I (.\RCSLIB\RCS_Types.h)(0x5F24064C)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (.\RCSLIB\RCS_SPI.h)(0x5F24C901)
 I (.\RCSLIB\RCS_GPIO.h)(0x5F24089A)
 I (.\RCSLIB\RCS_OLED.h)(0x5F24089A)
@@ -78,11 +78,12 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\USER\stm32f4xx_it.c)(0x5F01DE4C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\stm32f4xx_it.o --omf_browse .\objects\stm32f4xx_it.crf --depend .\objects\stm32f4xx_it.d)
 I (USER\stm32f4xx_it.h)(0x58221742)
 I (USER\stm32f4xx.h)(0x582097AC)
@@ -156,7 +157,7 @@ I (.\FWLIB\inc\stm32f4xx_can.h)(0x5821F050)
 I (.\FWLIB\inc\stm32f4xx_dac.h)(0x581CC67B)
 I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x581CC67B)
 I (.\FWLIB\inc\stm32f4xx_fsmc.h)(0x581CC67B)
-F (.\USER\rcs.h)(0x5F68ADA5)()
+F (.\USER\rcs.h)(0x5FA2D4D1)()
 F (.\FWLIB\src\misc.c)(0x581CC67B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\misc.o --omf_browse .\objects\misc.crf --depend .\objects\misc.d)
 I (.\FWLIB\inc\misc.h)(0x581CC67B)
 I (.\USER\stm32f4xx.h)(0x582097AC)
@@ -2237,7 +2238,7 @@ I (.\uCOSIII\uC-LIB\lib_math.h)(0x532A60E4)
 I (.\uCOSIII\uCOS_CONFIG\app_cfg.h)(0x5F127482)
 I (.\uCOSIII\uCOS_BSP\bsp.h)(0x5F1E958D)
 F (.\RCSLIB\RCS_SPI.c)(0x5FA23AB0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_spi.o --omf_browse .\objects\rcs_spi.crf --depend .\objects\rcs_spi.d)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2312,14 +2313,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Types.c)(0x5F24064A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_types.o --omf_browse .\objects\rcs_types.crf --depend .\objects\rcs_types.d)
 I (RCSLIB\RCS_Types.h)(0x5F24064C)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2394,14 +2396,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_GPIO.c)(0x5F6770D8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_gpio.o --omf_browse .\objects\rcs_gpio.crf --depend .\objects\rcs_gpio.d)
 I (RCSLIB\RCS_GPIO.h)(0x5F24089A)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2476,14 +2479,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_OLED.c)(0x5F24D86D)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_oled.o --omf_browse .\objects\rcs_oled.crf --depend .\objects\rcs_oled.d)
 I (RCSLIB\RCS_OLED.h)(0x5F24089A)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2558,14 +2562,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_OLED_ASCII.c)(0x5F24089A)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_oled_ascii.o --omf_browse .\objects\rcs_oled_ascii.crf --depend .\objects\rcs_oled_ascii.d)
 I (RCSLIB\RCS_OLED_ASCII.h)(0x5F24089B)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2640,14 +2645,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_ADC.c)(0x5F241F9B)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_adc.o --omf_browse .\objects\rcs_adc.crf --depend .\objects\rcs_adc.d)
 I (RCSLIB\RCS_ADC.h)(0x5F241F78)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2722,14 +2728,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Exti.c)(0x5F2420AE)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_exti.o --omf_browse .\objects\rcs_exti.crf --depend .\objects\rcs_exti.d)
 I (RCSLIB\RCS_Exti.h)(0x5F24064C)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2804,14 +2811,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_CAN.c)(0x5FA21F83)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_can.o --omf_browse .\objects\rcs_can.crf --depend .\objects\rcs_can.d)
 I (RCSLIB\RCS_CAN.h)(0x5F2421B2)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2886,14 +2894,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Usart.c)(0x5F24CDA7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_usart.o --omf_browse .\objects\rcs_usart.crf --depend .\objects\rcs_usart.d)
 I (RCSLIB\RCS_Usart.h)(0x5F24089B)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -2968,14 +2977,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Timer.c)(0x5FA23AB0)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_timer.o --omf_browse .\objects\rcs_timer.crf --depend .\objects\rcs_timer.d)
 I (RCSLIB\RCS_Timer.h)(0x5F24089B)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3050,14 +3060,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Pwm.c)(0x5F9A5C11)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_pwm.o --omf_browse .\objects\rcs_pwm.crf --depend .\objects\rcs_pwm.d)
 I (RCSLIB\RCS_Pwm.h)(0x5F24064C)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3132,14 +3143,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_GROBAL_GPS.c)(0x5F4BBD61)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_grobal_gps.o --omf_browse .\objects\rcs_grobal_gps.crf --depend .\objects\rcs_grobal_gps.d)
 I (RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3214,14 +3226,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
-F (.\RCSLIB\RCS_Ctrl_BaseMove.c)(0x5FA23ACC)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_ctrl_basemove.o --omf_browse .\objects\rcs_ctrl_basemove.crf --depend .\objects\rcs_ctrl_basemove.d)
-I (RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
+F (.\RCSLIB\RCS_Ctrl_BaseMove.c)(0x5FA2E06C)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_ctrl_basemove.o --omf_browse .\objects\rcs_ctrl_basemove.crf --depend .\objects\rcs_ctrl_basemove.d)
+I (RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3296,14 +3309,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_M_BaseMove.c)(0x5F374BDB)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_m_basemove.o --omf_browse .\objects\rcs_m_basemove.crf --depend .\objects\rcs_m_basemove.d)
 I (RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3378,14 +3392,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_MOTOR_3508.c)(0x5F24CDA7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_motor_3508.o --omf_browse .\objects\rcs_motor_3508.crf --depend .\objects\rcs_motor_3508.d)
 I (RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3460,14 +3475,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_PIDctrl.c)(0x5F240AFA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_pidctrl.o --omf_browse .\objects\rcs_pidctrl.crf --depend .\objects\rcs_pidctrl.d)
 I (RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3542,14 +3558,15 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Remote.c)(0x5FA230B8)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_remote.o --omf_browse .\objects\rcs_remote.crf --depend .\objects\rcs_remote.d)
 I (RCSLIB\RCS_Remote.h)(0x5FA23A09)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3624,13 +3641,14 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 F (.\RCSLIB\RCS_Oled_IIC.c)(0x5F24D8BA)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\rcs_oled_iic.o --omf_browse .\objects\rcs_oled_iic.crf --depend .\objects\rcs_oled_iic.d)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3705,15 +3723,16 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
 I (RCSLIB\RM_OLED_ASCII.h)(0x5F0F2321)
 F (.\USERLIB\LED_LIB.c)(0x5F68A5B7)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\led_lib.o --omf_browse .\objects\led_lib.crf --depend .\objects\led_lib.d)
 I (USERLIB\LED_LIB.h)(0x5F68A5B7)
-I (.\USER\rcs.h)(0x5F68ADA5)
+I (.\USER\rcs.h)(0x5FA2D4D1)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
 I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
@@ -3788,8 +3807,92 @@ I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
 I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
 I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
 I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
-I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5F2BF330)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
 I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
 I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
 I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
 I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
+F (.\USERLIB\MOTOR_CTRL_LIB.c)(0x5FA2DE04)(-c --cpu Cortex-M4.fp -g -O0 --apcs=interwork --split_sections -I .\CORE -I .\FWLIB\inc -I .\USER -I .\uCOSIII\uC-LIB -I .\uCOSIII\uC-CPU -I .\uCOSIII\uCOS-III -I .\uCOSIII\uCOS_BSP -I .\uCOSIII\uCOS_CONFIG -I .\uCOSIII\uCOS-III\Source -I .\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView -I .\uCOSIII\uC-LIB\Ports\ARM-Cortex-M4\RealView -I .\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView -I .\uCOSIII\uCOS_BSP\led -I .\uCOSIII\uCOS_BSP\usart -I .\SYSTEM -I .\RCSLIB -I .\USERLIB-I.\RTE\_Target_1-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include"-I"D:\Program Files\Keil_v5\ARM\CMSIS\Include"-I"D:\Program Files\Keil_v5\ARM\PACK\Keil\STM32F4xx_DFP\2.14.0"-D__UVISION_VERSION="525" -DSTM32F405xx -DSTM32F40_41xxx -DUSE_STDPERIPH_DRIVER -D__FPU_USED="1"-o .\objects\motor_ctrl_lib.o --omf_browse .\objects\motor_ctrl_lib.crf --depend .\objects\motor_ctrl_lib.d)
+I (USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)
+I (.\USER\rcs.h)(0x5FA2D4D1)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x569DEA3A)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdio.h)(0x569DEA3A)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdint.h)(0x569DEA3A)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdlib.h)(0x569DEA3A)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\stdbool.h)(0x569DEA3A)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\string.h)(0x569DEA3A)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\math.h)(0x569DEA3A)
+I (.\USER\stm32f4xx.h)(0x582097AC)
+I (.\CORE\core_cm4.h)(0x581CC64D)
+I (.\CORE\core_cmInstr.h)(0x581CC64D)
+I (.\CORE\core_cmFunc.h)(0x581CC64D)
+I (.\CORE\core_cmSimd.h)(0x581CC64D)
+I (.\USER\system_stm32f4xx.h)(0x582097AC)
+I (.\USER\stm32f4xx_conf.h)(0x5F1071A4)
+I (.\FWLIB\inc\stm32f4xx_adc.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_crc.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_dbgmcu.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_dma.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_exti.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_flash.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_gpio.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_i2c.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_iwdg.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_pwr.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_rcc.h)(0x58234D93)
+I (.\FWLIB\inc\stm32f4xx_rtc.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_sdio.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_spi.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_syscfg.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_tim.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_usart.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_wwdg.h)(0x581CC67B)
+I (.\FWLIB\inc\misc.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_cryp.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_hash.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_rng.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_can.h)(0x5821F050)
+I (.\FWLIB\inc\stm32f4xx_dac.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_dcmi.h)(0x581CC67B)
+I (.\FWLIB\inc\stm32f4xx_fsmc.h)(0x581CC67B)
+I (.\uCOSIII\uCOS_CONFIG\includes.h)(0x5433A07E)
+I (D:\Program Files\Keil_v5\ARM\ARMCC\include\ctype.h)(0x569DEA38)
+I (.\uCOSIII\uCOS-III\Source\os.h)(0x536AF896)
+I (.\uCOSIII\uCOS_CONFIG\os_cfg.h)(0x54338B3C)
+I (.\uCOSIII\uC-CPU\cpu_core.h)(0x536C36FC)
+I (.\uCOSIII\uC-CPU\ARM-Cortex-M4\RealView\cpu.h)(0x536C365E)
+I (.\uCOSIII\uC-CPU\cpu_def.h)(0x536C365E)
+I (.\uCOSIII\uCOS_CONFIG\cpu_cfg.h)(0x54338A66)
+I (.\uCOSIII\uC-LIB\lib_def.h)(0x532A6106)
+I (.\uCOSIII\uC-LIB\lib_mem.h)(0x532A60E4)
+I (.\uCOSIII\uCOS_CONFIG\lib_cfg.h)(0x54338B5C)
+I (.\uCOSIII\uC-LIB\lib_str.h)(0x532A60E4)
+I (.\uCOSIII\uC-LIB\lib_ascii.h)(0x532A60E4)
+I (.\uCOSIII\uCOS-III\Source\os_type.h)(0x536AF898)
+I (.\uCOSIII\uCOS-III\Ports\ARM-Cortex-M4\Generic\RealView\os_cpu.h)(0x536AF896)
+I (.\uCOSIII\uC-LIB\lib_math.h)(0x532A60E4)
+I (.\uCOSIII\uCOS_CONFIG\app_cfg.h)(0x5F127482)
+I (.\uCOSIII\uCOS_BSP\bsp.h)(0x5F1E958D)
+I (.\SYSTEM\delay.h)(0x5F1EF64B)
+I (.\SYSTEM\sys.h)(0x5F1E9590)
+I (.\RCSLIB\RCS_Types.h)(0x5F24064C)
+I (.\RCSLIB\RCS_SPI.h)(0x5F24C901)
+I (.\RCSLIB\RCS_GPIO.h)(0x5F24089A)
+I (.\RCSLIB\RCS_OLED.h)(0x5F24089A)
+I (.\RCSLIB\RCS_OLED_ASCII.h)(0x5F24089B)
+I (.\RCSLIB\RCS_ADC.h)(0x5F241F78)
+I (.\RCSLIB\RCS_Exti.h)(0x5F24064C)
+I (.\RCSLIB\RCS_CAN.h)(0x5F2421B2)
+I (.\RCSLIB\RCS_Usart.h)(0x5F24089B)
+I (.\RCSLIB\RCS_Timer.h)(0x5F24089B)
+I (.\RCSLIB\RCS_Pwm.h)(0x5F24064C)
+I (.\RCSLIB\RCS_GROBAL_GPS.h)(0x5F24D9FB)
+I (.\RCSLIB\RCS_MOTOR_3508.h)(0x5F24CDA7)
+I (.\RCSLIB\RCS_PIDctrl.h)(0x5F240AFA)
+I (.\RCSLIB\RCS_Ctrl_BaseMove.h)(0x5FA2DED0)
+I (.\RCSLIB\RCS_M_BaseMove.h)(0x5F372DA3)
+I (.\RCSLIB\RCS_Remote.h)(0x5FA23A09)
+I (.\RCSLIB\RCS_Oled_IIC.h)(0x5F24CA8F)
+I (.\USERLIB\LED_LIB.h)(0x5F68A5B7)
+I (.\USERLIB\MOTOR_CTRL_LIB.h)(0x5FA2DC85)

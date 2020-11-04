@@ -16,7 +16,7 @@ void Ctrl_BaseMove_Init(void)
 }
 
 //遥控手动控制
-void Remote_Ctrl(void)
+void Remote_Ctrl(float init_angle)
 {
 		float speed[3];				//0、1为相对车身 X Y方向的平移速度，2为总平移速度
 		float speed_dir;			//平动方向
@@ -33,9 +33,17 @@ void Remote_Ctrl(void)
 		rotate_w =-(rc_value.ch0 - RC_CH_VALUE_OFFSET) * ROTATE_EQUIVALENT * gear; //逆时针为正ch0控制自转方向
 		if(rc_value.s1 == RC_SW_MID)			//左开关S1置中间时为手动模式
 			BaseMove(speed[2],speed_dir,rotate_w,0,0,0,0);   //手动控制底盘
-		else if (rc_value.s1 == RC_SW_UP)		//左开关S1置上时为机械臂控制模式，统一通过右杆控制机械臂，机械臂的电调设置为1
+		else if (rc_value.s1 == RC_SW_UP)		//左开关S1置上时为机械臂控制模式，统一通过右杆控制机械臂，往上推是上升，往下推是下降。机械臂电机的电调设置为1
 		{
 				/*电机角度控制*/
+				if (rc_value.ch1 > RC_CH_VALUE_OFFSET)
+				{
+						//M3508_angle_Ctrl(/*target_angle*/,init_angle)
+				}
+				else if (rc_value.ch1 < RC_CH_VALUE_OFFSET)
+				{
+						//M3508_angle_Ctrl(/*target_angle*/,init_angle)//这个地方还需要改得比较多一点
+				}
 		}
 		else if (rc_value.s1 == RC_SW_DOWN)		//左开关S1置下时为气缸控制模式，左杆控制抓球气缸，右杆控制推球气缸，统一往上为置高电平
 		{
