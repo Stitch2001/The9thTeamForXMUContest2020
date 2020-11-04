@@ -159,6 +159,7 @@ static void MainTask_Init()				//初始化函数
 {
 		Ctrl_BaseMove_Init();		//底盘控制初始化（包括了手柄与底盘电机初始化）
 		Motor_Init2();		//CAN2初始化（用于控制机械臂）
+		//RCS_GPIO_Output_Init(GPIOC,GPIO_Pin_4);
 }
 
 

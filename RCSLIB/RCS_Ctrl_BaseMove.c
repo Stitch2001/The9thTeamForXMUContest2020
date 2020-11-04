@@ -33,9 +33,21 @@ void Remote_Ctrl(void)
 		rotate_w =-(rc_value.ch0 - RC_CH_VALUE_OFFSET) * ROTATE_EQUIVALENT * gear; //逆时针为正ch0控制自转方向
 		if(rc_value.s1 == RC_SW_MID)			//左开关S1置中间时为手动模式
 			BaseMove(speed[2],speed_dir,rotate_w,0,0,0,0);   //手动控制底盘
-		else if (rc_value.s1 == RC_SW_UP)
-			Motor_Send2(rc_value.ch1,0,0,0);		//左开关S1置上时为机械臂控制模式，统一通过右杆控制机械臂，机械臂的电调设置为1
-		else if (rc_value.s1 == RC_SW_DOWN);		//左开关S1置下时为气缸控制模式，左杆控制抓球气缸，右杆控制推球气缸
+		else if (rc_value.s1 == RC_SW_UP)		//左开关S1置上时为机械臂控制模式，统一通过右杆控制机械臂，机械臂的电调设置为1
+		{
+				/*电机角度控制*/
+		}
+		else if (rc_value.s1 == RC_SW_DOWN)		//左开关S1置下时为气缸控制模式，左杆控制抓球气缸，右杆控制推球气缸，统一往上为置高电平
+		{
+				if (rc_value.ch3 > RC_CH_VALUE_OFFSET)//抓球气缸
+				{
+						/*气缸控制*/
+				}
+				if (rc_value.ch1 > RC_CH_VALUE_OFFSET)//推球气缸
+				{
+						/*气缸控制*/
+				}
+		}
 }
 
 //@name: Point2Point_Move
